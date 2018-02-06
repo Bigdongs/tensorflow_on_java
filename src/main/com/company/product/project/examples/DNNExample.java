@@ -1,7 +1,5 @@
 package com.company.product.project.examples;
 
-import com.company.product.project.model.CpdSearchModelFacade;
-
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
