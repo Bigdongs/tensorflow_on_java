@@ -17,6 +17,7 @@ This project provides a simple framework showing how to inference a tensorflow m
     ...
 
 2. export serialized model:
+
     graph = tf.graph_util.convert_variables_to_constants(sess, sess.graph_def,["sparse_index", "sparse_ids", "sparse_values", "sparse_shape", "output_probs"])
     tf.train.write_graph(graph, ".", FLAGS.freezed_model_path, as_text=False)
 
